@@ -31,11 +31,17 @@ export default function Home() {
 
   useEffect(() => {
     setTime(`${hour}:${minute < 10 ? `0${minute}` : minute} ${format}`);
-  }, [date]);
+  }, []);
 
   useEffect(() => {
     setDay(fullDay);
-  }, [date]);
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setTime(`${hour}:${minute < 10 ? `0${minute}` : minute} ${format}`);
+    }, 1000);
+  });
 
   return (
     <div className="flex flex-col items-center justify-center h-screen gap-3">
