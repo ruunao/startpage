@@ -13,7 +13,7 @@
     "@types/node": "18.15.11",
     "@types/react": "18.0.31",
     "@types/react-dom": "18.0.11",
-    "class-variance-authority": "^0.4.0",
+    "class-variance-authority": "^0.6.0",
     "clsx": "^1.2.1",
     "iconsax-react": "^0.0.8",
     "next": "13.2.4",
