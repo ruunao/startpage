@@ -18,14 +18,14 @@ specifiers:
   tailwind-merge: ^1.11.0
   tailwindcss: ^3.3.1
   tailwindcss-animate: ^1.0.5
-  typescript: 5.0.3
+  typescript: 5.1.6
 
 dependencies:
   '@headlessui/react': 1.7.13_biqbaboplfbrettd7655fr4n2y
   '@types/node': 18.15.11
   '@types/react': 18.0.31
   '@types/react-dom': 18.0.11
-  class-variance-authority: 0.4.0_typescript@5.0.3
+  class-variance-authority: 0.4.0_typescript@5.1.6
   clsx: 1.2.1
   iconsax-react: 0.0.8_react@18.2.0
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
@@ -34,13 +34,13 @@ dependencies:
   react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y
   tailwind-merge: 1.11.0
   tailwindcss-animate: 1.0.5_tailwindcss@3.3.1
-  typescript: 5.0.3
+  typescript: 5.1.6
 
 devDependencies:
   autoprefixer: 10.4.14_postcss@8.4.21
   postcss: 8.4.21
   rome: 12.0.0
-  tailwindcss: 3.3.1
+  tailwindcss: 3.3.1_postcss@8.4.21
 
 packages:
 
@@ -370,7 +370,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /class-variance-authority/0.4.0_typescript@5.0.3:
+  /class-variance-authority/0.4.0_typescript@5.1.6:
     resolution: {integrity: sha512-74enNN8O9ZNieycac/y8FxqgyzZhZbxmCitAtAeUrLPlxjSd5zA7LfpprmxEcOmQBnaGs5hYhiSGnJ0mqrtBLQ==}
     peerDependencies:
       typescript: '>= 4.5.5 < 5'
@@ -378,7 +378,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      typescript: 5.0.3
+      typescript: 5.1.6
     dev: false
 
   /client-only/0.0.1:
@@ -1061,13 +1061,15 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
-      tailwindcss: 3.3.1
+      tailwindcss: 3.3.1_postcss@8.4.21
     dev: false
 
-  /tailwindcss/3.3.1:
+  /tailwindcss/3.3.1_postcss@8.4.21:
     resolution: {integrity: sha512-Vkiouc41d4CEq0ujXl6oiGFQ7bA3WEhUZdTgXAhtKxSy49OmKs8rEfQmupsfF0IGW8fv2iQkp1EVUuapCFrZ9g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
+    peerDependencies:
+      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
@@ -1133,9 +1135,9 @@ packages:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
     dev: false
 
-  /typescript/5.0.3:
-    resolution: {integrity: sha512-xv8mOEDnigb/tN9PSMTwSEqAnUvkoXMQlicOb0IUVDBSQCgBSaAAROUZYy2IcUy5qU6XajK5jjjO7TMWqBTKZA==}
-    engines: {node: '>=12.20'}
+  /typescript/5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: false
 
